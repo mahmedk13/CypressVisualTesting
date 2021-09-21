@@ -1,0 +1,21 @@
+{
+  "name": "cypress-canvas",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "triggerChromeTests": "npx cypress run --browser chrome",
+    "triggerFFTests": "npx cypress run --browser firefox",
+    "triggerHeadlessTests": "npx cypress run"
+
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^7.7.0",
+    "cypress-mochawesome-reporter": "^2.2.1"
+  },
+  "dependencies": {
+    "cypress-plugin-snapshots": "^1.4.4"
+  }
+}
